@@ -14,7 +14,7 @@ connectDB();
 
 // ── Middleware ──
 app.use(cors({
-  origin: "https://future-fs-01-omega-five.vercel.app", // your React Vite dev server
+  origin: "https://future-fs-01-brown.vercel.app", // your React Vite dev server
   methods: ["GET", "POST"],
 }));
 app.use(express.json());
